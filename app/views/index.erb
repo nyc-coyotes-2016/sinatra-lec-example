@@ -1,0 +1,9 @@
+<h1>Hello World Again</h1>
+<ul>
+<% @songs.each do |song| %>
+  <li>
+    <h2><%= song.title %></h2>
+    <iframe src="https://embed.spotify.com/?uri=spotify:track:3OhpnxZyvIIxl62haM4Eth" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+  </li>
+<% end %>
+</ul>
